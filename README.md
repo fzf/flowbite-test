@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+```
+bundle
+npm install
+rails db:setup
+./bin/dev
+```
 
-Things you may want to cover:
+Navigate to `http://localhost:3000/users/sign_in`
 
-* Ruby version
+The page will look terrible, there is a tooltip that works.
 
-* System dependencies
+Try to login this will error and reload the page.
 
-* Configuration
+The tooltip will no longer work and the notice will not be dismissable
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
